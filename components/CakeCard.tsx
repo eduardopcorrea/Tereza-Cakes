@@ -19,7 +19,7 @@ export function CakeCard({
   children,
 }: CakeCardProps) {
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl bg-white/80 shadow-card ring-1 ring-chocolate/5">
+    <article className="flex flex-col overflow-hidden rounded-2xl bg-white/70 shadow-card ring-1 ring-chocolate/5">
       <div className="flex h-32 items-center justify-center bg-gradient-to-br from-rosa/30 to-creme text-5xl">
         <span role="img" aria-hidden>
           {emoji}

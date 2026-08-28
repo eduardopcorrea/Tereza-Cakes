@@ -9,7 +9,7 @@ export function Hours() {
           Atendimento para pedidos e retiradas.
         </p>
 
-        <ul className="mt-6 divide-y divide-chocolate/10 overflow-hidden rounded-2xl bg-white/80 shadow-card ring-1 ring-chocolate/5">
+        <ul className="mt-6 divide-y divide-chocolate/10 overflow-hidden rounded-2xl bg-white/70 shadow-card ring-1 ring-chocolate/5">
           {HOURS.map((h) => (
             <li
               key={h.label}

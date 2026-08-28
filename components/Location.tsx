@@ -2,7 +2,7 @@ import { CONTACT, mapsLink } from "@/lib/catalog";
 
 export function Location() {
   return (
-    <section id="localizacao" className="section bg-white/40">
+    <section id="localizacao" className="section bg-rosa/10">
       <div className="container-site max-w-2xl">
         <h2 className="section-title">Localização</h2>
         <p className="mt-4 text-chocolate/80">{CONTACT.address}</p>

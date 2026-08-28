@@ -9,7 +9,15 @@
   }
 
   body {
-    @apply bg-creme text-chocolate font-sans antialiased;
+    @apply text-chocolate font-sans antialiased;
+    background-color: theme("colors.creme");
+    background-image: linear-gradient(
+      180deg,
+      theme("colors.rosa-claro") 0%,
+      theme("colors.creme") 22%,
+      theme("colors.creme") 100%
+    );
+    background-attachment: fixed;
   }
 
   h1,

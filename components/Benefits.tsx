@@ -29,7 +29,7 @@ export function Benefits() {
           {BENEFITS.map((b) => (
             <div
               key={b.title}
-              className="rounded-2xl bg-white/70 p-6 shadow-card ring-1 ring-chocolate/5"
+              className="rounded-2xl bg-white/60 p-6 shadow-card ring-1 ring-chocolate/5"
             >
               <span className="text-3xl" role="img" aria-hidden>
                 {b.icon}

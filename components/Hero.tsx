@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="scroll-mt-20 bg-gradient-to-b from-rosa/25 via-creme to-creme"
+      className="scroll-mt-20 bg-gradient-to-b from-rosa/40 via-rosa-claro to-creme"
     >
       <div className="container-site grid gap-10 py-16 sm:py-24 lg:grid-cols-2 lg:items-center">
         <div>

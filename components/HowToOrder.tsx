@@ -30,7 +30,7 @@ const STEPS = [
 
 export function HowToOrder() {
   return (
-    <section id="como-pedir" className="section bg-white/40">
+    <section id="como-pedir" className="section bg-rosa/10">
       <div className="container-site">
         <h2 className="section-title">Como pedir</h2>
 
