@@ -41,7 +41,7 @@
   }
 
   .btn-primary {
-    @apply btn bg-chocolate text-creme hover:bg-chocolate/90;
+    @apply btn bg-rosa text-chocolate hover:opacity-90;
   }
 
   .btn-secondary {

@@ -18,7 +18,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40">
-      <div className="bg-chocolate text-creme">
+      <div className="border-b border-rosa/40 bg-rosa-claro text-chocolate">
         <p className="container-site flex items-center justify-center gap-1.5 py-1.5 text-center text-[11px] font-medium leading-tight sm:text-xs">
           <span aria-hidden>⚠️</span>
           Site de demonstração — este <strong className="font-semibold">não</strong>{" "}

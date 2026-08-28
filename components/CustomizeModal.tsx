@@ -154,7 +154,7 @@ export function CustomizeModal({ cake, onClose }: CustomizeModalProps) {
                 onClick={() => setTamanho(t)}
                 className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                   tamanho === t
-                    ? "border-chocolate bg-chocolate text-creme"
+                    ? "border-rosa-escuro bg-rosa text-chocolate"
                     : "border-chocolate/25 bg-white/70 hover:bg-white"
                 }`}
               >
@@ -175,7 +175,7 @@ export function CustomizeModal({ cake, onClose }: CustomizeModalProps) {
                 onClick={() => setMassa(m)}
                 className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                   massa === m
-                    ? "border-chocolate bg-chocolate text-creme"
+                    ? "border-rosa-escuro bg-rosa text-chocolate"
                     : "border-chocolate/25 bg-white/70 hover:bg-white"
                 }`}
               >
@@ -198,7 +198,7 @@ export function CustomizeModal({ cake, onClose }: CustomizeModalProps) {
                 onClick={() => setCobertura(c)}
                 className={`rounded-full border px-4 py-2 text-sm transition-colors ${
                   cobertura === c
-                    ? "border-chocolate bg-chocolate text-creme"
+                    ? "border-rosa-escuro bg-rosa text-chocolate"
                     : "border-chocolate/25 bg-white/70 hover:bg-white"
                 }`}
               >

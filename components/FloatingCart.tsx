@@ -39,7 +39,7 @@ export function FloatingCart() {
       <button
         type="button"
         onClick={() => setOpen(!isOpen)}
-        className="fixed bottom-5 right-5 z-40 flex items-center gap-2 rounded-full bg-chocolate px-5 py-3 text-creme shadow-card transition-transform hover:scale-105"
+        className="fixed bottom-5 right-5 z-40 flex items-center gap-2 rounded-full bg-rosa px-5 py-3 text-chocolate shadow-card transition-transform hover:scale-105"
         aria-label="Abrir carrinho"
       >
         <svg
@@ -58,7 +58,7 @@ export function FloatingCart() {
         </svg>
         <span className="text-sm font-semibold">Carrinho</span>
         {totalItems > 0 && (
-          <span className="flex h-6 min-w-6 items-center justify-center rounded-full bg-rosa px-1.5 text-xs font-bold text-chocolate">
+          <span className="flex h-6 min-w-6 items-center justify-center rounded-full bg-chocolate px-1.5 text-xs font-bold text-creme">
             {totalItems}
           </span>
         )}

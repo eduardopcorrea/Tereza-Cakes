@@ -40,7 +40,7 @@ export function HowToOrder() {
               key={step.n}
               className="rounded-2xl bg-white/80 p-5 shadow-card ring-1 ring-chocolate/5"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-chocolate font-display text-sm font-bold text-creme">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-rosa font-display text-sm font-bold text-chocolate">
                 {step.n}
               </span>
               <h3 className="mt-3 text-base font-semibold">{step.title}</h3>

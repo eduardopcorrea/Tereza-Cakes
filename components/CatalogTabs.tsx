@@ -36,7 +36,7 @@ export function CatalogTabs() {
             onClick={() => setTab("bolos")}
             className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
               tab === "bolos"
-                ? "bg-chocolate text-creme"
+                ? "bg-rosa text-chocolate"
                 : "text-chocolate/70 hover:text-chocolate"
             }`}
           >
@@ -47,7 +47,7 @@ export function CatalogTabs() {
             onClick={() => setTab("docinhos")}
             className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
               tab === "docinhos"
-                ? "bg-chocolate text-creme"
+                ? "bg-rosa text-chocolate"
                 : "text-chocolate/70 hover:text-chocolate"
             }`}
           >
@@ -182,7 +182,7 @@ function FixedCakeCard({ cake }: { cake: FixedCake }) {
                 onClick={() => setTamanho(t)}
                 className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${
                   tamanho === t
-                    ? "border-chocolate bg-chocolate text-creme"
+                    ? "border-rosa-escuro bg-rosa text-chocolate"
                     : "border-chocolate/25 bg-white/70 hover:bg-white"
                 }`}
               >
