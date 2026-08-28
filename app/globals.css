@@ -5,7 +5,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    /* altura do header (faixa de aviso + barra de navegação) */
+    scroll-padding-top: 7rem;
   }
 
   body {

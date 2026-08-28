@@ -17,8 +17,17 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-chocolate/10 bg-creme/90 backdrop-blur">
-      <div className="container-site flex h-16 items-center justify-between gap-4">
+    <header className="sticky top-0 z-40">
+      <div className="bg-chocolate text-creme">
+        <p className="container-site flex items-center justify-center gap-1.5 py-1.5 text-center text-[11px] font-medium leading-tight sm:text-xs">
+          <span aria-hidden>⚠️</span>
+          Site de demonstração — este <strong className="font-semibold">não</strong>{" "}
+          é o site oficial da Tereza Cakes.
+        </p>
+      </div>
+
+      <div className="border-b border-chocolate/10 bg-creme/90 backdrop-blur">
+        <div className="container-site flex h-16 items-center justify-between gap-4">
         <Link
           href="#inicio"
           className="flex items-center gap-2"
@@ -118,6 +127,7 @@ export function Header() {
           </nav>
         </div>
       )}
+      </div>
     </header>
   );
 }

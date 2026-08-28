@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { whatsappLink } from "@/lib/catalog";
 
 export function Hero() {
@@ -34,16 +35,19 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-rosa/40 to-white shadow-card ring-1 ring-white/60">
-            <div className="flex h-full w-full flex-col items-center justify-center gap-3 p-8 text-center">
-              <span className="text-6xl" role="img" aria-label="Bolo">
-                🎂
-              </span>
-              <p className="font-display text-xl text-chocolate/70">
-                Cada bolo é único, assim como a sua festa
-              </p>
-            </div>
+        <div className="relative mx-auto w-full max-w-sm">
+          <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-rosa/40 to-white p-6 shadow-card ring-1 ring-white/60">
+            <Image
+              src="/logo.jpg"
+              alt="Logo da Tereza Cakes"
+              width={150}
+              height={150}
+              priority
+              className="mx-auto h-auto w-full max-w-[240px] rounded-2xl"
+            />
+            <p className="mt-4 text-center font-display text-lg text-chocolate/70">
+              Cada bolo é único, assim como a sua festa
+            </p>
           </div>
         </div>
       </div>

@@ -45,6 +45,22 @@ export const metadata: Metadata = {
       "Bolos de encomenda, bolos caseiros e docinhos artesanais em Vila Velha, ES.",
     type: "website",
     locale: "pt_BR",
+    siteName: "Tereza Cakes",
+    images: [
+      {
+        url: "/logo.jpg",
+        width: 150,
+        height: 150,
+        alt: "Logo da Tereza Cakes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Tereza Cakes — Confeitaria artesanal",
+    description:
+      "Bolos de encomenda, bolos caseiros e docinhos artesanais em Vila Velha, ES.",
+    images: ["/logo.jpg"],
   },
 };
 
